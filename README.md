@@ -49,19 +49,21 @@ The architecture separates the application into three layers:
 ---
 
 ## 🧩 Architecture Diagram
-![Diagram](diagrams/architecture-diagram.png)
+
+![architecture-diagram png](https://github.com/user-attachments/assets/037fe002-92b5-4d65-ad05-d30bff98c21c)
+
 
 ## 📸 Screenshots
-![ALB](screenshots/alb.png)
-
-### 🔹 EC2 Instances
-![EC2](screenshots/ec2.png)
+<img width="1919" height="904" alt="ALB-setup" src="https://github.com/user-attachments/assets/6a1b8b18-8191-4943-baa9-204718e4acd3" 
 
 ### 🔹 RDS Database
-![RDS](screenshots/rds.png)
+
+<img width="1910" height="917" alt="DB-setup" src="https://github.com/user-attachments/assets/f7e779f2-e4de-4e25-a1e6-bdb4efee16d4" />
+
 
 ### 🔹 WordPress Application
-![WordPress](screenshots/wordpress.png)
+<img width="1917" height="978" alt="wordpress png" src="https://github.com/user-attachments/assets/7f06e338-49f1-44fb-8eca-05bd8492a312" />
+
 
 ---
 
