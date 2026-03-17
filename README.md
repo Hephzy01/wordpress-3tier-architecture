@@ -49,20 +49,27 @@ The architecture separates the application into three layers:
 ---
 
 ## 🧩 Architecture Diagram
+![architecture-diagram png](https://github.com/user-attachments/assets/0cd6521b-4fc8-403f-9c3d-59e6e58529ba)
 
-![architecture-diagram png](https://github.com/user-attachments/assets/037fe002-92b5-4d65-ad05-d30bff98c21c)
+
+---
+
+## 📸 Project Screenshots
+
+### 🔹 VPC
+<img width="1897" height="906" alt="VPC-setup" src="https://github.com/user-attachments/assets/73c18dc7-5d79-4cca-b361-a6423681a635" />
 
 
-## 📸 Screenshots
-<img width="1919" height="904" alt="ALB-setup" src="https://github.com/user-attachments/assets/6a1b8b18-8191-4943-baa9-204718e4acd3" />
+### 🔹 Load Balancer Setup
+<img width="1919" height="904" alt="ALB-setup" src="https://github.com/user-attachments/assets/b0b72660-b88d-4a99-9816-44485ed44a22" />
+
 
 ### 🔹 RDS Database
-
-<img width="1910" height="917" alt="DB-setup" src="https://github.com/user-attachments/assets/f7e779f2-e4de-4e25-a1e6-bdb4efee16d4" />
+<img width="1910" height="917" alt="DB-setup" src="https://github.com/user-attachments/assets/12a06ec4-742d-4b1f-b463-5c87d39026da" />
 
 
 ### 🔹 WordPress Application
-<img width="1917" height="978" alt="wordpress png" src="https://github.com/user-attachments/assets/7f06e338-49f1-44fb-8eca-05bd8492a312" />
+<img width="1917" height="978" alt="wordpress png" src="https://github.com/user-attachments/assets/c35a2841-ee34-4613-a681-01febc3feadb" />
 
 
 ---
@@ -75,6 +82,45 @@ The architecture separates the application into three layers:
 
 ---
 
-## ✅ Solutions
-- Fixed inbound/outbound rules
-- Correct subnet setup
+## ✅ Solutions Implemented
+- Configured correct inbound/outbound rules in security groups
+- Ensured proper subnet routing (public vs private)
+- Updated WordPress configuration file (`wp-config.php`)
+- Verified database connectivity and credentials
+
+---
+
+## 🔐 Security Best Practices
+- RDS deployed in private subnet (not publicly accessible)
+- Controlled access using security groups
+- Least privilege access configuration
+- Network isolation using VPC
+
+---
+
+## 📚 What I Learned
+- Real-world cloud architecture design
+- AWS networking (VPC, subnets, routing)
+- High availability and fault tolerance
+- Debugging cloud deployment issues
+- Deploying scalable web applications
+
+---
+
+## 📌 Future Improvements
+- Add HTTPS using AWS Certificate Manager (SSL)
+- Implement CI/CD pipeline (GitHub Actions)
+- Use Terraform for Infrastructure as Code (IaC)
+- Add monitoring with CloudWatch
+
+---
+
+## 👨‍💻 Author
+**Adeola Hephzibah Akinlade**
+
+Cloud / DevOps Engineer (Aspiring)
+
+---
+
+## ⭐ If you found this helpful
+Give this repo a star ⭐ and connect with me on LinkedIn!
