@@ -49,14 +49,9 @@ The architecture separates the application into three layers:
 ---
 
 ## 🧩 Architecture Diagram
-![Architecture Diagram](diagrams/architecture-diagram.png)
+![Diagram](diagrams/architecture-diagram.png)
 
-
----
-
-## 📸 Project Screenshots
-
-### 🔹 Load Balancer Setup
+## 📸 Screenshots
 ![ALB](screenshots/alb.png)
 
 ### 🔹 EC2 Instances
@@ -78,45 +73,6 @@ The architecture separates the application into three layers:
 
 ---
 
-## ✅ Solutions Implemented
-- Configured correct inbound/outbound rules in security groups
-- Ensured proper subnet routing (public vs private)
-- Updated WordPress configuration file (`wp-config.php`)
-- Verified database connectivity and credentials
-
----
-
-## 🔐 Security Best Practices
-- RDS deployed in private subnet (not publicly accessible)
-- Controlled access using security groups
-- Least privilege access configuration
-- Network isolation using VPC
-
----
-
-## 📚 What I Learned
-- Real-world cloud architecture design
-- AWS networking (VPC, subnets, routing)
-- High availability and fault tolerance
-- Debugging cloud deployment issues
-- Deploying scalable web applications
-
----
-
-## 📌 Future Improvements
-- Add HTTPS using AWS Certificate Manager (SSL)
-- Implement CI/CD pipeline (GitHub Actions)
-- Use Terraform for Infrastructure as Code (IaC)
-- Add monitoring with CloudWatch
-
----
-
-## 👨‍💻 Author
-**Adeola Hephzibah Akinlade**
-
-Cloud / DevOps Engineer (Aspiring)
-
----
-
-## ⭐ If you found this helpful
-Give this repo a star ⭐ and connect with me on LinkedIn!
+## ✅ Solutions
+- Fixed inbound/outbound rules
+- Correct subnet setup
