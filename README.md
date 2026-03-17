@@ -54,7 +54,7 @@ The architecture separates the application into three layers:
 
 
 ## 📸 Screenshots
-<img width="1919" height="904" alt="ALB-setup" src="https://github.com/user-attachments/assets/6a1b8b18-8191-4943-baa9-204718e4acd3" 
+<img width="1919" height="904" alt="ALB-setup" src="https://github.com/user-attachments/assets/6a1b8b18-8191-4943-baa9-204718e4acd3" />
 
 ### 🔹 RDS Database
 
